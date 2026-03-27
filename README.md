@@ -30,9 +30,9 @@ userbehavior
 │   ├── product_recommendation_step1.ipynb # 推荐系统：数据准备│   ├── product_recommendation_step1.ipynb # Recommendation System: Data Preparation
 │   ├── product_recommendation_step2.ipynb # 推荐系统：关联规则│   ├── product_recommendation_step2.ipynb # Recommendation System: Association Rules
 │   └── product_recommendation_step3.ipynb # 推荐系统：协同过滤│   └── product_recommendation_step3.ipynb # Recommendation System: Collaborative Filtering
-├── 数据分析报告.md                      # 完整分析报告
-├── CLAUDE.md                           # 项目指导文档├── CLAUDE.md                           # Project guidance document
-└── README.md                           # 项目说明文档└── README.md                           # Project description document
+├── 数据分析报告.md                      # 完整分析报告         ├── DataAnalysisReport.md       #Complete analytical report
+├── CLAUDE.md                           # 项目指导文档        ├── CLAUDE.md                   # Project guidance document           
+    └── README.md                       # 项目说明文档        └── README.md                   # Project description document
 ```
 
 ## 技术栈
@@ -40,7 +40,7 @@ userbehavior
 - Python 3.x
 - 数据处理：pandas, numpy
 - 机器学习：scikit-learn
-- 推荐系统：implicit (ALS), mlxtend (FP-Growth)- Recommendation systems: implicit (ALS), mlxtend (FP-Growth)
+- 推荐系统：implicit (ALS), mlxtend (FP-Growth)
 - 可视化：matplotlib
 - 稀疏矩阵：scipy.sparse
 
