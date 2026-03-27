@@ -1,0 +1,53 @@
+# ==================== 天池数据文件（不得上传到GitHub）====================
+*.csv
+*.npz
+*.pkl
+
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==================== Jupyter Notebook ====================
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# ==================== IDE ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==================== 操作系统 ====================
+.DS_Store
+Thumbs.db
+
+# ==================== Claude Code ====================
+.claude/
+
+# ==================== 图片输出（可选，根据需要决定是否上传） ====================
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# ==================== SQL文件 ====================
+SQL/
