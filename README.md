@@ -7,8 +7,8 @@
 ## 数据来源
 
 - **数据平台**：阿里云天池（Tianchi）
-- **数据集名称**：淘宝用户行为数据（User Behavior Data from Taobao）
-- **数据链接**：https://tianchi.aliyun.com/dataset/dataDetail?dataId=649
+- **数据集名称**：淘宝用户行为数据（User Behavior Data from Taobao）- **Dataset Name**: User Behavior Data from Taobao
+- **数据链接**：https://tianchi.aliyun.com/dataset/dataDetail?dataId=649- **Data Link**: https://tianchi.aliyun.com/dataset/dataDetail?dataId=649
 - **数据时间范围**：2017-11-25 至 2017-12-03
 - **使用许可**：本数据集遵循阿里云天池平台的数据使用协议，仅供学习研究和学术交流使用，不得用于商业用途。
 
@@ -17,19 +17,22 @@
 ## 项目结构
 
 ```
-userbehavior/
-├── notebook/                           # Jupyter 分析笔记本
-│   ├── data_cleaning.ipynb              # 数据清洗
-│   ├── User_behavior_clustering_analysis.ipynb  # 用户画像与聚类
-│   ├── Funnel_Conversion_Analysis.ipynb  # 转化漏斗分析
-│   ├── Temporal_Behavior_Analysis.ipynb  # 时间行为分析
-│   ├── Category_Conversion_Rate.ipynb    # 品类转化率分析
-│   ├── product_recommendation_step1.ipynb # 推荐系统：数据准备
-│   ├── product_recommendation_step2.ipynb # 推荐系统：关联规则
-│   └── product_recommendation_step3.ipynb # 推荐系统：协同过滤
+userbehavior
+├── SQL/                                # PostgreSQL pgAdmin4├── SQL/                               # PostgreSQL pgAdmin4
+|   ├── creat_table_user_features.sql   # 用户聚合特征表│   ├── creat_table_user_features.sql        # User Aggregated Feature Table
+|   ├── recommendation_sql_aggregations.sql  # 推荐指标聚合表│   ├── recommendation_sql_aggregations.sql  # Recommendation Metric Aggregation Table
+├── notebook/                           # Jupyter 分析笔记本├── notebook/                           # Jupyter analysis notebooks
+│   ├── data_cleaning.ipynb              # 数据清洗│   ├── data_cleaning.ipynb              # Data cleaning
+│   ├── User_behavior_clustering_analysis.ipynb  # 用户画像与聚类│   ├── User_behavior_clustering_analysis.ipynb  # User portrait and clustering analysis
+│   ├── Funnel_Conversion_Analysis.ipynb  # 转化漏斗分析│   ├── Funnel_Conversion_Analysis.ipynb  # Funnel Conversion Analysis
+│   ├── Temporal_Behavior_Analysis.ipynb  # 时间行为分析│   ├── Temporal_Behavior_Analysis.ipynb  # Temporal Behavior Analysis
+│   ├── Category_Conversion_Rate.ipynb    # 品类转化率分析│   ├── Category_Conversion_Rate.ipynb    # Category Conversion Rate Analysis
+│   ├── product_recommendation_step1.ipynb # 推荐系统：数据准备│   ├── product_recommendation_step1.ipynb # Recommendation System: Data Preparation
+│   ├── product_recommendation_step2.ipynb # 推荐系统：关联规则│   ├── product_recommendation_step2.ipynb # Recommendation System: Association Rules
+│   └── product_recommendation_step3.ipynb # 推荐系统：协同过滤│   └── product_recommendation_step3.ipynb # Recommendation System: Collaborative Filtering
 ├── 数据分析报告.md                      # 完整分析报告
-├── CLAUDE.md                           # 项目指导文档
-└── README.md                           # 项目说明文档
+├── CLAUDE.md                           # 项目指导文档├── CLAUDE.md                           # Project guidance document
+└── README.md                           # 项目说明文档└── README.md                           # Project description document
 ```
 
 ## 技术栈
@@ -37,7 +40,7 @@ userbehavior/
 - Python 3.x
 - 数据处理：pandas, numpy
 - 机器学习：scikit-learn
-- 推荐系统：implicit (ALS), mlxtend (FP-Growth)
+- 推荐系统：implicit (ALS), mlxtend (FP-Growth)- Recommendation systems: implicit (ALS), mlxtend (FP-Growth)
 - 可视化：matplotlib
 - 稀疏矩阵：scipy.sparse
 
