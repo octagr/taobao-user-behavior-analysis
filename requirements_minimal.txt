@@ -1,0 +1,34 @@
+# 淘宝用户行为数据分析与推荐系统 - 核心依赖
+# Taobao User Behavior Analysis - Core Dependencies
+
+# ============ 核心依赖 / Core Dependencies ============
+
+# 数据处理 / Data Processing
+pandas==3.0.1
+numpy==1.26.4
+
+# 机器学习 / Machine Learning
+scikit-learn==1.8.0
+joblib==1.5.3
+threadpoolctl==3.6.0
+
+# 推荐系统 / Recommendation System
+implicit==0.7.2
+mlxtend==0.23.1
+
+# 可视化 / Visualization
+matplotlib==3.10.8
+
+# 稀疏矩阵 / Sparse Matrix
+scipy==1.17.1
+
+# Jupyter 笔记本 / Jupyter Notebook
+jupyter==1.1.1
+ipykernel==7.2.0
+
+# 进度条 / Progress Bar
+tqdm==4.67.3
+
+# ============ 说明 / Notes ============
+# 安装方式: pip install -r requirements_minimal.txt
+# Installation: pip install -r requirements_minimal.txt
