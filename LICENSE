@@ -1,0 +1,51 @@
+MIT License
+
+Copyright (c) 2026 Taobao User Behavior Analysis Project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## 代码许可证 / Code License
+
+本项目代码采用 MIT 许可证。
+
+This project code is licensed under the MIT License.
+
+### 你可以 / You Can:
+
+- 自由使用和修改代码 / Use and modify the code freely
+- 商业使用 / Commercial use
+- 私有使用 / Private use
+
+### 你需要 / You Must:
+
+- 保留原始版权声明 / Keep the original copyright notice
+- 说明对代码的修改 / State any changes you made
+
+### 你不能 / You Cannot:
+
+- 使用本项目名称进行商业推广 / Use the project name for commercial promotion without permission
+
+---
+
+## 另请参阅 / See Also:
+
+- **数据许可证**: 请参阅 `DATA_LICENSE` 文件 / See `DATA_LICENSE` for data licensing information
+- **数据分析报告**: 请参阅 `数据分析报告.md` / See `数据分析报告.md` for analysis report

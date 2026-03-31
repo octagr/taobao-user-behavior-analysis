@@ -1,0 +1,109 @@
+# 数据集使用许可证 / Dataset License
+
+## 数据来源 / Data Source
+
+| 项目 / Item | 内容 / Content |
+|------------|----------------|
+| **平台 / Platform** | 阿里云天池 Tianchi |
+| **数据集 / Dataset** | User Behavior Data from Taobao |
+| **链接 / Link** | https://tianchi.aliyun.com/dataset/dataDetail?dataId=649 |
+| **时间范围 / Period** | 2017-11-25 至 2017-12-03 |
+
+---
+
+## 使用条款 / Terms of Use
+
+### 允许 / Allowed:
+
+- ✅ 学术研究和教育目的 / Academic and educational purposes
+- ✅ 个人学习和技术研究 / Personal learning and technical research
+- ✅ 代码分析和算法开发 / Code analysis and algorithm development
+- ✅ 在学术论文中引用（在注明来源的情况下）/ Citation in academic papers (with attribution)
+
+### 禁止 / Prohibited:
+
+- ❌ 商业用途 / Commercial use
+- ❌ 原始数据集的重新分发 / Redistribution of the raw dataset
+- ❌ 上传到其他公共平台 / Upload to other public platforms
+- ❌ 用于产品或商业服务 / Use in products or commercial services
+
+---
+
+## 重要声明 / Important Notice
+
+### 数据集不上传 / Dataset Not Uploaded
+
+**本项目的 GitHub 仓库不包含原始数据集文件。**
+
+The original dataset files are NOT included in this GitHub repository.
+
+原始数据集文件（`*.csv`、`*.npz`、`*.pkl`）已通过 `.gitignore` 排除，不会被上传到 GitHub。
+
+Raw dataset files (`*.csv`, `*.npz`, `*.pkl`) are excluded via `.gitignore` and will not be uploaded to GitHub.
+
+### 获取数据集 / Obtain the Dataset
+
+如需复现本项目分析，请从阿里云天池平台下载原始数据集：
+
+To reproduce this project, please download the original dataset from Alibaba Cloud Tianchi:
+
+1. 访问 / Visit: https://tianchi.aliyun.com/dataset/dataDetail?dataId=649
+2. 注册/登录阿里云天池账号 / Register/Login to Tianchi account
+3. 下载数据集 / Download the dataset
+4. 将文件重命名为 `UserBehavior.csv` / Rename file to `UserBehavior.csv`
+5. 放置在项目根目录 / Place in project root directory
+6. 运行 `notebook/data_cleaning.ipynb` 进行数据清洗 / Run `notebook/data_cleaning.ipynb` for data cleaning
+
+---
+
+## 版权声明 / Copyright Notice
+
+本数据集版权归阿里云/阿里巴巴集团所有。
+
+This dataset is copyrighted by Alibaba Cloud / Alibaba Group.
+
+本项目的分析和代码分析版权归项目贡献者所有。
+
+Analysis and code in this project are copyrighted by the project contributors.
+
+---
+
+## 引用方式 / Citation
+
+如果您在学术研究中使用了本项目的数据分析或代码，请按以下格式引用：
+
+If you use this project's analysis or code in academic research, please cite:
+
+```
+@misc{taobao_user_behavior_2026,
+  title = {淘宝用户行为数据分析与推荐系统},
+  author = {Taobao User Behavior Analysis Project},
+  year = {2026},
+  url = {https://github.com/your-repo/userbehavior},
+  note = {基于阿里云天池淘宝用户行为数据集}
+}
+```
+
+---
+
+## 免责声明 / Disclaimer
+
+1. 本项目仅供学习研究使用，不对分析结果的准确性做任何保证。
+   This project is for learning and research purposes only, no warranty is provided for analysis results.
+
+2. 数据集由阿里云天池提供，本项目不对数据集的内容、完整性或时效性负责。
+   The dataset is provided by Alibaba Cloud Tianchi; this project is not responsible for the content, completeness, or timeliness of the dataset.
+
+3. 使用本项目代码或分析结果产生的任何问题，由使用者自行承担。
+   Any issues arising from using this project's code or analysis results are the responsibility of the user.
+
+---
+
+## 联系 / Contact
+
+- **天池平台**: https://tianchi.aliyun.com
+- **数据集页面**: https://tianchi.aliyun.com/dataset/dataDetail?dataId=649
+
+---
+
+*最后更新 / Last Updated: 2026年3月31日 / Mar 31, 2026*
